@@ -1,0 +1,220 @@
+/* Barra de navegacion inicio */
+body {
+  background-color: #3e3b3b;
+}
+.imagen-logo {
+  height: 60px;
+  position: relative;
+  left: 90px;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 100px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+/* Barra de navegacion Fiestas */
+.fiestas-logo {
+  height: 60px;
+  position: relative;
+  left: 90px;
+}
+
+.navbar-brand:hover {
+  color: rgb(105, 18, 18);
+}
+
+/* barra de navegacion Casamientos */
+.casamientos-logo {
+  height: 60px;
+  position: relative;
+  left: 90px;
+}
+
+/* barra de navegacion Colegios */
+.colegios-logo {
+  height: 60px;
+  position: relative;
+  left: 90px;
+}
+
+/* barra de navegacion Contacto */
+.contacto-logo {
+  height: 60px;
+  position: relative;
+  left: 90px;
+}
+
+/* Carrusel de imagenes - inicio */
+.carousel-item {
+  height: 65vh
+}
+
+#carouselExampleCaptions {
+  margin: 0 auto;
+  margin: 10px;
+}
+
+/* Cards - inicio */
+.fotos-inicio img {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.fotos-inicio {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around
+}
+
+.fotos-inicio-2 img {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.fotos-inicio-2 {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly
+}
+
+.fotos-inicio-3 img {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.fotos-inicio-3 {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly
+}
+
+.fotos-inicio-4 img {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.fotos-inicio-4 {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly
+}
+
+/* Contacto */
+
+form{
+  background-color: white;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+input, textarea{
+  border: 0;
+  outline: none;
+  width: 280px;
+}
+
+.field{
+  border: solid 1px #bdb4b4;
+  padding: 10px;
+}
+
+.field:focus{
+  border-color: #a32f18;
+}
+
+.center-content{
+  text-align: center;
+}
+
+/* Footer */
+.pie-pagina {
+  width: 100%;
+  background-color: #000000;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #1e1c1c;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #3e3b3b;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
